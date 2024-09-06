@@ -1,4 +1,4 @@
-##GamerHub: Seu Portal para o Mundo dos Games!
+## GamerHub: Seu Portal para o Mundo dos Games!
 
 **Sobre o GamerHub**
 
