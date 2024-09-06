@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap');
+
+body {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centraliza os itens verticalmente */
+}
+
+/* Estiliza os títulos h1 */
+.titulo h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 3rem; /* Tamanho da fonte */
+    color: #0C9291; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+    position: absolute;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra para melhor legibilidade */
+    top: 40%;
+}
+
+.titulo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 163.3px;
+    width: 250.8px;
+    background-image: url('imagem-controle.png');
+    background-size: cover;
+  }
+
+/* Estiliza o corpo da página */
+main {
+    font-family: "Poppins", sans-serif; /* Define a fonte padrão */
+    background-color: #FAFBFB; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin-top: 28px;
+    padding: 0;
+    position: relative; /* Permite posicionamento absoluto dos filhos */
+} 
+
+
+.categorias1 button{
+    font-family: 'Press Start 2P', sans-serif; 
+    font-size: 10px;
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #125F6C; /* Cor de fundo do botão */
+    color: #FAFBFB; /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    height: 28px;
+    width: 115px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.categorias1 button:hover {
+    background-color: #0d505c;
+    transform: scale(1.05);
+}
+
+.categorias2 button{
+    font-family: 'Press Start 2P', sans-serif; 
+    font-size: 10px;
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #125F6C; /* Cor de fundo do botão */
+    color: #FAFBFB; /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    height: 28px;
+    width: 115px;
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.categorias2 button:hover {
+    background-color: #0d505c;
+    transform: scale(1.05);
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-top: 40px;
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    font-family: "Poppins", sans-serif; /* Define a fonte padrão */
+    width: 28rem; /* Largura dos inputs */
+    height: 50px;
+    padding: 0.9rem; /* Espaçamento interno */
+    border: 2px solid #09DDC3;
+    text-align: center;
+    border-radius: 2rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #000000; /* Cor do texto */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    font-family: "Poppins", sans-serif; /* Define a fonte padrão */
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #125F6C; /* Cor de fundo do botão */
+    color: #FAFBFB; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+}
+
+section button:hover {
+    background-color: #0d505c;
+    transform: scale(1.05);
+}
+
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    position: relative;
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    display: flex;
+    align-items: center;
+    background: #EBF5F5; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.item-resultado img {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 1rem;
+}
+
+.item-resultado div {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-resultado div .links {
+    display: inline
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h3 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #125F6C; /* Cor do texto ?nao muda*/
+    margin: 0;
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #125F6C; /* Cor do texto dos links */
+    margin-right: 10px;
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    color: #0c4d58;
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #000000; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    font-family: "Poppins", sans-serif; /* Define a fonte padrão */
+    background-color: #125F6C; /* Cor de fundo do rodapé */
+    color: #F4F0E5; /* Cor do texto */
+    text-align: center;
+    padding: 0; /* Espaçamento interno */
+    width: 100%;/* Largura total da página */
+    height: 68px;
+    position: fixed;
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    line-height: 0.5;
+    align-items: center;
+}

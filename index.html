@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=style.css>
+    <title>GamerHub</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+        <h1>GamerHub</h1>
+        <img src="imagem-controle.png" alt="Imagem Controle">
+        </div>
+    </header>
+    <main>
+        <div class="categorias1">
+            <button onclick="botaoAcao()">AÇÃO</button>
+            <button onclick="botaoFps()">FPS</button>
+            <button onclick="botaoRpg()">RPG</button>
+            <button onclick="botaoSimulacao()">SIMULAÇÃO</button>
+            <button onclick="botaoEstrategia()">ESTRATÉGIA</button>
+        </div>
+        <div class="categorias2">
+            <button onclick="botaoCorrida()">CORRIDA</button>
+            <button onclick="botaoCasual()">CASUAL</button>
+            <button onclick="botaoTerror()">TERROR</button>
+            <button onclick="botaoIndie()">INDIE</button>
+            <button onclick="botaoAventura()">AVENTURA</button>
+        </div>
+        <section>
+        <input type="text" placeholder="Digite o nome do Jogo" id="campo-pesquisa">
+        <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+            <p>2024 - GamerHub. Todos os direitos reservados</p>
+            <p>Entre em contato pelo email: gamerhub@gmail.com.br</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
