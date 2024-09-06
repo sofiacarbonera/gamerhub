@@ -1,10 +1,10 @@
-## GamerHub: Seu Portal para o Mundo dos Games!
+##GamerHub: Seu Portal para o Mundo dos Games!
 
-** Sobre o GamerHub**
+**Sobre o GamerHub**
 
 O GamerHub é uma aplicação web simples e divertida, criada para ajudar você, gamer, a encontrar seus próximos jogos favoritos! Com uma interface intuitiva e fácil de usar, você pode navegar por diversas categorias de jogos, realizar buscas por títulos específicos e descobrir novas aventuras.
 
-** Como Funciona**
+**Como Funciona**
 
 * **Escolha sua aventura:** Navegue pelas categorias de jogos (Ação, FPS, RPG, etc.) e descubra uma variedade de títulos que se encaixam no seu estilo de jogo.
 * **Busque por seu jogo favorito:** Utilize a barra de pesquisa para encontrar jogos específicos pelo nome.
